@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <title>tọa form đơn giản</title>
+    <body>
+        <p><b>Họ và tên</b></p>
+        <label><input name="name" value="name" type="text" /></label><br />
+        <p><b>Email</b></p>
+        <label><input name="Email" value="Email" type="email" /></label><br />
+        <p><b>Số điện thoại</b></p>
+        <label><input name="number" value="number" type="number" /></label
+        ><br />
+        <label>Giới tính<input name="giới tính" type="radio" />Nam</label>
+        <label><input name="giới tính" type="radio" />Nữ</label><br />
+        <label><input type="submit" value="Đăng kí" /></label>
+    </body>
+</html>
